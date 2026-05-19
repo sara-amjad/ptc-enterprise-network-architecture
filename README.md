@@ -153,6 +153,4 @@ Wireless access points provide secure connectivity for users.
 
 ## ⚠️ Disclaimer
 
-This repository was developed for **academic and educational purposes only** as part of Unit 09: Computer Networking under the Pearson BTEC HND in Digital Technologies (Cyber Security).
-
-All configurations, designs, IP schemes, bandwidth values, security implementations, and simulations are **fictional and used only for academic demonstration purposes**. No real organizational system has been implemented or affected.
+This repository was developed for academic and educational purposes to demonstrate the design and implementation of secure and scalable computer networking systems within a simulated enterprise environment.
