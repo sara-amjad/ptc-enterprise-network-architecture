@@ -11,6 +11,9 @@ This repository presents a secure and scalable enterprise network design for a s
 The proposed infrastructure integrates **star topology architecture**, **5G backup connectivity**, and **SD-WAN principles** to ensure high availability and performance. The design also incorporates **firewalls, VLAN segmentation, VPN access, and QoS mechanisms** to enhance security and traffic optimization.
 
 Cisco Packet Tracer is used to simulate the network environment, including routers, switches, access points, and security configurations.
+<p align="center">
+  <img src="Images/Network Packet Tracing .png" width="850"/>
+</p>
 
 ## 🧠 Key Features
 
@@ -31,7 +34,9 @@ The system follows a **star topology design**, where all devices connect to a ce
 - **Distribution Layer:** Switches (VLANs, LACP, PoE)  
 - **Access Layer:** End devices and wireless access points  
 
-📌 **Figure 2: Star Topology Diagram**
+<p align="center">
+  <img src="Images/Star Topology.png" width="700"/>
+</p>
 
 
 ## 🔄 Network Workflow
@@ -53,8 +58,9 @@ The router acts as the central gateway between LAN and WAN, managing routing, se
 - Provides DHCP services for automatic IP assignment  
 - Implements NAT/PAT for internet sharing  
 
-📌 **Figure 11: Router Configuration**
-
+<p align="center">
+  <img src="Images/Router Configuration .png" width="700"/>
+</p>
 
 ### 🔀 Switch Configuration  
 Switches manage internal communication and VLAN segmentation.
@@ -64,7 +70,9 @@ Switches manage internal communication and VLAN segmentation.
 - LACP enables redundancy and load balancing  
 - PoE supports powered network devices  
 
-📌 **Figure 12: Switch Configuration**
+<p align="center">
+  <img src="Images/Switch Configuration .png" width="700"/>
+</p>
 
 
 ### 📶 Access Point Configuration  
@@ -81,9 +89,11 @@ Wireless access points provide secure connectivity for users.
 - 🔑 VPN secured with AES-256 encryption  
 - 🧱 VLAN segmentation for isolation  
 - 🛡 IDS/IPS for intrusion detection  
-- ☁ DMZ for public-facing systems  
+- ☁ DMZ for public-facing systems
 
-📌 **Figure 10: VPN Security Configuration**
+<p align="center">
+  <img src="Images/Virtual Private Network (VPN) .png" width="700"/>
+</p>
 
 ## 📊 Bandwidth Analysis
 
@@ -91,8 +101,6 @@ Wireless access points provide secure connectivity for users.
 - Video Conferencing: 4–6 Mbps per user  
 - File Sharing: 10–15 Mbps per user  
 - Peak Load: 50–60 Mbps (scalable higher)  
-
-📌 **Figure 1: Bandwidth Requirement Graph**
 
 ## 📡 IP Addressing Scheme
 
@@ -104,7 +112,6 @@ Wireless access points provide secure connectivity for users.
 | Public Services | Public IPs | External-facing services |
 | Expansion | Reserved subnets | Future scalability |
 
-📌 **Figure 7: IP Addressing Scheme**
 
 ## 🛠 Maintenance & Scalability
 
@@ -113,17 +120,29 @@ Wireless access points provide secure connectivity for users.
 - Monthly: Security audits  
 - Quarterly: Infrastructure upgrades  
 
-📌 **Figure 4: Maintenance Plan**
-
-
 ## 📊 Testing & Validation
 
 - Ping → connectivity testing  
 - Traceroute → path analysis  
-- SSH → secure remote access  
+- SSH → secure remote access
+  
+<p align="center">
+  <img src="Images/Ping Command .png" width="700"/>
+</p>
 
-📌 **Figure 13: Network Packet Tracing**
+---
 
+<p align="center">
+  <img src="Images/Traceroute Command .png" width="700"/>
+</p>
+
+---
+
+<p align="center">
+  <img src="Images/Secure Shell (SSH) .png" width="700"/>
+</p>
+
+---
 
 ## 📈 Monitoring & Optimization
 
